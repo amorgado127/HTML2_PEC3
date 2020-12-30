@@ -6,10 +6,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no">
   <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-  <title>Festival</title>
+  <title>Contacto</title>
 </head>
 
-<body class="items-center">
+<body class="">
   <header class="flex flex-row justify-between items-center w-95% mx-auto">
     <div class="pl-5">
       <a href="index.html"><img src="./assets/images/logo_music_sants.png" alt="Logo Music Sants"></a>
@@ -26,12 +26,28 @@
     </div>
   </header>
 
-  <section class="my-10 bg-blue-300 h-20 w-2/3 mx-auto">
-
-    <h1 class="font-roboto font-bold text-center text-lg md:text-xl lg:text-3xl xl:text-5xl">Página de inicio con
-      enlaces a las páginas de artistas y
-      contacto </h1>
+  <section class="block w-11/12 md:w-3/5 m-auto bg-blue-formulario p-10 mb-10 shadow-md rounded">
+    <h4 class="font-roboto font-bold text-left mx-auto text-lg md:text-xl xl:text-3xl">Envíanos un mensaje con tus comentarios, preguntas o sugerencias:</h4>
+    <form name="contacto" method="POST" data-netlify="true" class="flex flex-col content-between w-11/12 my-5 mx-auto">
+      <div class="flex flex-col my-1">
+        <label class="label-form md:text-xl" for="inputName">Nombre</label>
+        <input type="text" class="input-control md:text-base" id="inputName" aria-describedby="emailHelp">
+      </div>
+      <div class="flex flex-col my-1">
+        <label class="label-form md:text-xl" for="inputEmail">Email</label>
+        <input type="email" class="input-control md:text-base" id="inputEmail" aria-describedby="emailHelp">
+      </div>
+      <div class="flex flex-col my-1">
+        <label class="label-form md:text-xl" for="inputMensaje">Mensaje</label>
+        <textarea class="input-control md:text-base" id="inputMensaje" rows="3"></textarea>
+      </div>
+      
+      <button class="hover:bg-blue-800 text-white bg-blue-500 font-bold py-2 px-6 rounded-lg w-30 md:w-40 mx-auto mt-5 text-sm md:text-base"
+        type="submit">Enviar</button>
+      
+    </form>
   </section>
+
   <footer class="w-95% flex flex-col mx-auto mt-5 items-center">
     <div class="bg-gray-estatico flex flex-column items-center justify-around h-260px w-2/4">
       <iframe class="ml-3 h-240px w-320px"

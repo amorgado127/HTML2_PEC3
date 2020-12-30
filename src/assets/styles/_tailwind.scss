@@ -1,0 +1,27 @@
+.card {
+  @apply bg-gray-personal flex flex-col max-w-lg shadow-md rounded-xl m-10;
+}
+
+.card-titulo1 {
+  @apply my-2  font-roboto font-bold text-center text-lg;
+}
+
+.card-titulo2 {
+  @apply my-2  font-roboto font-bold text-center text-base;
+}
+
+.card-descripcion {
+  @apply mt-2 mb-3 font-montserrat text-center text-xs;
+}
+
+.enlace-menu {
+  @apply pr-5 font-montserrat text-gray-500 hover:text-gray-800 text-base;
+}
+
+.label-form {
+  @apply font-montserrat font-bold my-1 text-lg;
+}
+
+.input-control {
+  @apply rounded font-montserrat focus:ring-2 text-sm;
+}
