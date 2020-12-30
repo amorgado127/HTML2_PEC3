@@ -2,6 +2,10 @@
   @apply bg-gray-personal flex flex-col max-w-lg shadow-md rounded-xl m-10;
 }
 
+.card-img {
+  @apply m-2 rounded;
+}
+
 .card-titulo1 {
   @apply my-2  font-roboto font-bold text-center text-lg;
 }
